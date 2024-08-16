@@ -5,15 +5,34 @@ import LinkButton from '../components/LinkButton.astro';
 
 <Layout title="Social links profile">
 	<main>
-		<div class="bg-grey-800 p-6 text-center">
-			<h1 class="font-semibold text-white">Poncho Ramos</h1>
-			<p class="text-green-700 font-bold">Mexico</p>
-			<p class="text-white">IT engineering student and Simracer</p>
+		<div class="bg-grey-800 p-6 text-center min-w-[327px] max-w-[384px] mx-auto rounded-xl mt-[116.5px]">
+			<img src="/public/assets/images/Profile.jpeg" class="size-[88px] rounded-full mx-auto" alt="Poncho Ramos Profile Picure">
+			<div class="my-6">
+				<h1 class="font-semibold text-white text-2xl">Poncho Ramos</h1>
+				<p class="text-green-700 font-bold">Mexico</p>
+			</div>
+			<p class="text-white text-sm">"IT engineering student and Simracer"</p>
 
 			<div>
 				<LinkButton
 					title='Github'
 					link='https://github.com/alfonso-ramos'
+				/>
+				<LinkButton
+					title='Frontend Mentor'
+					link='https://www.frontendmentor.io/profile/alfonso-ramos'
+				/>
+				<LinkButton
+					title='Linkedin'
+					link='https://www.linkedin.com/in/ponchoramos/'
+				/>
+				<LinkButton
+					title='Threads'
+					link='https://www.threads.net/@ponchoramosdev?hl=es-la'
+				/>
+				<LinkButton
+					title='Instagram'
+					link='https://www.instagram.com/ponchoramosdev/?igsh=MTF3ZHdyYW5hbDRkbg%3D%3D'
 				/>
 			</div>
 		</div>

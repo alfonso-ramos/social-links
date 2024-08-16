@@ -9,6 +9,7 @@ export default {
 			"green-700": "#C4F82A",
 			"white": "#fff",
 		},
+
 		extend: {},
 	},
 	plugins: [],
