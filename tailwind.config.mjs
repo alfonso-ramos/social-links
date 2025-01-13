@@ -6,7 +6,7 @@ export default {
 			"grey-900": "#141414",
 			"grey-800": "#1f1f1f",
 			"grey-700": "#333",
-			"green-700": "#C4F82A",
+			"blue-700": "#3083DC",
 			"white": "#fff",
 		},
 
